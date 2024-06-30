@@ -1,0 +1,9 @@
+html{
+background:#90EE90;
+}
+p ,h1 ,form{
+  color:white;
+}
+.submit{
+  margin:10px;
+}
