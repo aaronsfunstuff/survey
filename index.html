@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+    <h1 id="title"> Game surrvey</h1>
+    <p id=description>Thank you helping me find the best games for my website</p>
+    <form action="" id="survey-form">
+      <div class="form-div">
+      <label id="name-label">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-div">
+      <label id="email-label">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-div">
+      <label id="number-label">Age (optional)</label>
+      <input type="number" min="18" max="100" id="number" name="Age" placeholder="Age" required>
+      </div>
+      <div class="form-div">
+        <label id="dropdown-role">Which option is your favorite game</label>
+
+        <select id="dropdown" name="dropdown">
+          <option value="">Select game</option>
+          <option value="1">Valorant</option>
+          <option value="2">COD</option>
+          <option value="3">Minecraft</option>
+          <option value="4">Gta v</option>
+          <option value="5">Other</option>
+
+        </select>
+      </div>
+    </form>
+  </body>
+</html>
