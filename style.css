@@ -1,9 +1,19 @@
 html{
-background:#90EE90;
+background: #99B898;
 }
 p ,h1 ,form{
   color:white;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+   text-align:center
 }
 .submit{
   margin:10px;
+}
+.border{
+    border: 1px;
+    border-style: solid;
+  text-align: center 
 }
